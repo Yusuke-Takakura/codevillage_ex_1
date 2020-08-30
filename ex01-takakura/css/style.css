@@ -1,0 +1,62 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+
+    transition: all 1s 0s linear;
+}
+
+.box:hover {
+    width: 500px;
+    height: 500px;
+}
+
+ul {
+    width: 6.5%;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: relative;
+    color: #ABB2B9;
+    margin-bottom: 5px;
+    transition: all 1s 0s ease-out; 
+}
+
+li:after {
+    display: block;
+    content: "";
+    width: 0%;
+    border: 1px solid #fff;
+    position: absolute;
+    transition: all 1s 0s ease-out; 
+}
+
+li:hover::after {
+    width: 100%;
+    border-color: black;
+    vertical-align: bottom;
+}
+
+li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+button {
+    border: 1px solid black;
+    padding: 20px 40px;
+    border-radius: 40%;
+    box-shadow: 0px 5px ;
+    transition: all 1s 0s ease-out;
+    box-sizing: border-box;
+
+}
+
+button:active {
+    box-shadow: none;
+    margin-top: 5px;
+}
