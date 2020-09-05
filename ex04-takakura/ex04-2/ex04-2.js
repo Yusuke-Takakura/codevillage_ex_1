@@ -11,4 +11,4 @@ function scoring(score) {
         console.log('不可')
     }
 }
-console.log(scoring(100));
+scoring(100)
