@@ -8,7 +8,7 @@ const dragon = [
 // console.log(power);
 
 function measure(chara) {
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < dragon.length; i++) {
         if (chara[i].power >= 40000) {
             const eva = '最強';
             console.log(eva);
@@ -22,7 +22,7 @@ function measure(chara) {
     }
 }
 
-console.log(measure(dragon));
+measure(dragon);
 
 //return evaにすると変数が返ってこないのはなぜか
 
