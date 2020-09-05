@@ -6,19 +6,19 @@ function scoring(score) {
         return eva
         // console.log('秀')
     } else if (score >= 75) {
-        const eva = '悠'
+        const eva = '優'
         return eva
         // console.log('優')
     } else if (score >= 60) {
-        const eva = '中'
+        const eva = '並'
         return eva
         // console.log('良')
     } else if (score >= 30) {
-        const eva = 't'
+        const eva = '良'
         return eva
         // console.log('可')
     } else {
-        const eva = 'h'
+        const eva = '頑張ろう'
         return eva
         // console.log('不可')
     }

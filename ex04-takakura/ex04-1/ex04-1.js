@@ -1,7 +1,7 @@
 function cointoss() {
-    let num = Math.floor(Math.random() * 10);
+    let num = Math.floor(Math.random() * 100);
     nums = num % 2;
-    if (nums = 0) {
+    if (nums === 0) {
         console.log('表');
     } else {
         console.log('裏');
