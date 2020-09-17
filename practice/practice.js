@@ -10,18 +10,19 @@ const dragon = [
 function measure(chara) {
     for (let i = 0; i < dragon.length; i++) {
         if (chara[i].power >= 40000) {
-            const eva = '最強';
-            console.log(eva);
+            const evaluate = '最強';
+            console.log(evaluate);
         } else if (chara[i].power >= 30000) {
-            const eva = '中堅';
-            console.log(eva);
+            const evaluate = '中堅';
+            console.log(evaluate);
         } else if (chara[i].power >= 25000) {
-            const eva = '最弱';
-            console.log(eva);
+            const evaluate = '最弱';
+            console.log(evaluate);
         }
     }
 }
 
+console.log(measure(dragon));
 measure(dragon);
 
 //return evaにすると変数が返ってこないのはなぜか

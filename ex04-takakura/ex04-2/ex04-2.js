@@ -1,15 +1,14 @@
 function scoring(score) {
     if (score >= 90) {
-        eva = '秀';
+        return '秀'
     } else if (score >= 75) {
-        eva = '優';
+        return '優'
     } else if (score >= 60) {
-        eva = '良';
+        return '良'
     } else if (score >= 30) {
-        eva = '可';
+        return '可'
     } else {
-        eva = '不可';
+        return '不可'
     }
-    return eva;
 }
-console.log(scoring(100));
+console.log(scoring(40));
